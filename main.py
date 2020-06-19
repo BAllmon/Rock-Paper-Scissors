@@ -52,4 +52,4 @@ while True:
       print('Scissors vs Scissors! Tie!')
       ties += 1
 
-  print('Wins: ' + str(wins) + ' Losses: ' + str(losses) + ' Ties: ' + str(ties))
+  print('Wins: ' + str(wins) + ' Losses: ' + str(losses) + ' Ties: ' + str(ties)+ '\n')
