@@ -10,6 +10,7 @@ while True:
     print("Please select (R)ock, (P)aper, or (S)cissors or (Q)uit")
     userChoice = str(input())
     if userChoice == 'Q':
+        print('Thanks for playing with me!')
         sys.exit()
     elif userChoice == 'R' or userChoice == 'P' or userChoice == 'S':
         break
