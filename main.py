@@ -9,6 +9,7 @@ while True:
   while True:
     print("Please select (R)ock, (P)aper, or (S)cissors or (Q)uit")
     userChoice = str(input())
+    userChoice = userChoice.upper()
     if userChoice == 'Q':
         print('Thanks for playing with me!')
         sys.exit()
